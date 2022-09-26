@@ -1,0 +1,8 @@
+@import "./variables.style";
+
+.header-comp {
+  background-color: $light;
+  box-shadow: 0px 4px 10px rgba(22, 33, 62, 0.3);
+  border-radius: 0px 0px 0px 10px;
+  font-size: 2rem;
+}

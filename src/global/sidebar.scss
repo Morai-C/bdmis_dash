@@ -1,0 +1,35 @@
+@import "./variables.style";
+.side-bar {
+  padding-left: 2rem;
+  min-height: inherit;
+  .nav {
+    &-link {
+      color: $light;
+      font-size: 1rem;
+      padding: 1rem 2rem;
+      font-weight: 600;
+
+      i {
+        margin-right: 2rem;
+      }
+    }
+
+    .active {
+      background-color: $light;
+      border-radius: 10px 0px 0px 10px;
+
+      color: #1e1e1e;
+    }
+  }
+  //   a {
+  //     background-color: #fff;
+  //     border-radius: 10px 0px 0px 10px;
+  //     padding: 0.5rem 3.5rem;
+  //     color: #1e1e1e;
+  //     font-weight: 600;
+
+  //     i {
+  //       margin-right: 1rem;
+  //     }
+  //   }
+}

@@ -1,0 +1,16 @@
+.dashboard {
+  min-height: 100vh;
+  //background-color: red;
+  display: grid;
+  aside {
+    background-color: #16213e;
+    min-height: inherit;
+  }
+  @media screen and (min-width: 992px) {
+    grid-template-columns: 1fr 4fr;
+
+    .dashboard-main {
+      padding-left: 5.6rem;
+    }
+  }
+}
